@@ -1,0 +1,36 @@
+.my-courses {
+    padding-top: 5.8rem;
+    padding-bottom: 5.8rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.wishlist{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wishlit-content{
+    padding: 0px 6px;
+    flex: 0 0 auto;
+    width: 50%;
+}
+.wishlist-content{
+    padding: 0px 6px;
+    flex: 0 0 auto;
+    width: 50%;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+@media (max-width: 575.98px) {
+    .wishlist {
+        flex-direction: column;
+    }
+    .wishlist-content{
+        padding: 0px 6px;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}

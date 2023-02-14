@@ -1,0 +1,207 @@
+.courses-qualification{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.course-qualification-content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searce-content{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.qualification-content{
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.left-control-box {
+    /* border-right: 1px solid var(--gray); */
+    padding: 43px 50px 60px 27px;
+}
+.left-control-box h4.search-title {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin-bottom: 2.2rem;
+}
+.left-side-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-control-box .left-side-content:not(:last-of-type) {
+    margin-bottom: 4rem;
+}
+.filter-content{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.search-title {
+    font-size: 20px;
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+.search-wrapper {
+    border: 2px solid #ececec;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.search-wrapper .form-control {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    color: #151515;
+    border: 0;
+    border-radius: 0;
+    padding: 2.4rem 2.4rem;
+}
+.input-group>.form-control{
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+}
+.search-wrapper button {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    padding-right: 2.4rem;
+}
+.search-wrapper button img {
+    max-width: 24px;
+}
+.custom-checkbox-wrapper {
+    text-align: left;
+    width: 100%;
+}
+.custom-checkbox-wrapper .form-check:not(:last-child) {
+    margin-bottom: 1.2rem;
+}
+/* .custom-checkbox-wrapper .form-check input[type="checkbox"], .custom-checkbox-wrapper .form-check input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    margin: 0;
+    display: inline-block;
+} */
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.custom-checkbox-wrapper .form-check label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 3.2rem;
+    padding-left: 1.5rem;
+}
+.left-side-content h4 {
+    font-size: 15px;
+    line-height: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+.courses-qualification-content {
+    padding: 43px 27px 60px 50px;
+    border-left: 1px solid #e3e3e3;
+}
+.course-qualification{
+    display: flex;
+    flex-wrap: wrap;
+}
+.course-card {
+    flex: 0 0 auto;
+    width: 50%;
+   padding: 2rem 1rem;
+}
+.title-filter-group{
+    display: none;
+}
+.search-menu{
+    display: none;
+}
+@media (max-width: 575.98px){
+    .filter-close-btn {
+        position: absolute;
+        top: 1.6rem;
+        right: 1.6rem;
+        border: 0;
+        background-color: transparent;
+        z-index: 1090;
+    }
+    .search-menu{
+        display: block;
+    }
+    .search-lg-menu{
+        display: none;
+    }
+    .title-filter-group{
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+
+    }
+    .left-side-content h4 {
+        font-size: 18px;
+        line-height: 3.2rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+    }
+    .custom-checkbox-wrapper .form-check label {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 3.2rem;
+        padding-left: 1.5rem;
+    }
+    .left-control-box {
+        padding: 5rem 2.5rem 7rem 2.5rem;
+    }
+    .left-control-box h4.search-title {
+        font-size: 24px;
+        line-height: 3.2rem;
+        margin-bottom: 2.2rem;
+    }
+    .searce-content {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+    .course-qualification-content {
+        flex-direction: column;
+    }
+    .qualification-content {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .courses-qualification-content {
+        padding: 3.8rem 1.2rem 3rem 1.2rem;
+        border-left: 1px solid #e3e3e3;
+    }
+    .course-qualification {
+       flex-direction: column;
+    }
+    .course-card {
+        flex: 0 0 auto;
+        width: 100%;
+       
+    }
+    .filter-btn {
+        display: inline-block;
+        border: 2px solid #bdbdbd;
+        border-radius: 1rem;
+        padding: 1rem 1.2rem;
+    }
+}

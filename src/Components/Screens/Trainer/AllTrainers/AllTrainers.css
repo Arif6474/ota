@@ -1,0 +1,22 @@
+.all-trainers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    gap: 15px;
+}
+.trainer{
+    flex: 0 0 auto;
+    width: 24%;
+    margin: 15px 0px;
+}
+@media (max-width: 575.98px){
+    .all-trainers{
+       flex-direction: column;
+    }
+    .trainer{
+        flex: 0 0 auto;
+        width: 100%;
+        margin: 15px 0px;
+    } 
+}

@@ -1,0 +1,139 @@
+.modal {
+  z-index: 1090;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+}
+}
+/* .signin-signup-modal .modal-dialog {
+  max-width: 534px;
+  margin: auto;
+} */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+.fade {
+  transition: opacity 0.15s linear;
+}
+.modal.show .modal-dialog {
+  transform: none;
+}
+.modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+}
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  pointer-events: none;
+}
+.signin-signup-modal .modal-content {
+  padding: 50px;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.signin-signup-modal .modal-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border: 0;
+  background: transparent;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.signin-signup-modal .modal-close img {
+    width: 22px;
+    height: 22px;
+}
+.signin-signup-modal .modal-body {
+    padding: 0;
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+}
+.signin-signup-modal .brand-logo {
+    width: 195px;
+    margin-bottom: 2.7rem;
+}
+.signin-signup-modal .title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+.signin-signup-modal h6 {
+    font-size: 17px;
+    line-height: 3.2rem;
+    margin-top: 4px;
+    color: #151515;
+}
+.sign-pad{
+  padding-top: 25px !important;
+}
+.signin-signup-modal .input-field-wrapper > div:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+.signin-signup-modal .passwordToglerBtn {
+  position: absolute;
+  top: 27px;
+  bottom: 0;
+  right: 1.8rem;
+  margin: auto;
+  cursor: pointer;
+  display: inline-block;
+}
+.signin-signup-modal .box-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin-signup-modal .box-btn-wrapper .box-btn:first-child {
+  min-width: 10.8rem;
+}
+.signin-signup-modal .box-btn-wrapper .box-btn:not(.fill) {
+  border: 0;
+}
+.signin-signup-modal p {
+  margin-top: 4.2rem;
+  font-size: 15.5px;
+  line-height: 3.2rem;
+  color: #151515;
+}
+.create-account {
+  font-size: 13px;
+  line-height: 2.1rem;
+  color: #224497;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.forget-pass:hover{
+  color: #224497 !important;
+  background-color: #fff !important;
+}

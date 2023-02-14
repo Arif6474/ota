@@ -1,0 +1,238 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.trainers_navigate{
+  position: relative;
+}
+.trainers_navigate .swiper-button-next {
+  right: -60px !important;
+  left: auto;
+  top: 200px;
+}
+.trainers_navigate .swiper-button-prev {
+  left: -60px !important;
+  right: auto;
+  top: 200px;
+}
+.trainers_navigate .swiper-button-next, .trainers_navigate .swiper-button-prev {
+  position: absolute;
+  width: calc(var(--swiper-navigation-size)/ 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+.card {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid #e3e3e3;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+.card .thumb-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(23, 23, 23, 0.65) 0%,
+    rgba(23, 23, 23, 0) 52.87%
+  );
+}
+.thumb-wrapper img {
+  display: block;
+  width: 100%;
+}
+.card .do-status-box {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  right: 2.4rem;
+}
+.card .card-body {
+  padding: 2.4rem;
+}
+.card-body {
+  flex: 1 1 auto;
+}
+.card .card-body .sub-title {
+  font-size: 13px;
+  text-align: start;
+  line-height: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+.card .card-body .main-title {
+  font-size: 19px;
+  text-align: start;
+  line-height: 2.6rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  min-height: 52px;
+}
+.meta-tag-box {
+  padding: 3.2rem 0;
+}
+.meta-tag-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.do-status-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.do-status-inner p {
+  text-align: start;
+  font-size: 13px;
+  line-height: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.do-status-inner p span {
+  display: block;
+  font-weight: 400;
+}
+.do-status-inner a {
+  display: inline-block;
+  font-size: 12.5px;
+  line-height: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.5rem;
+  border: 1px solid #27ae60;
+  background: rgba(39, 174, 96, 0.2);
+  pointer-events: none;
+}
+.meta-tag-inner .icon {
+  width: 17px;
+}
+.meta-tag-inner p {
+  text-align: start;
+  font-size: 13.5px;
+  line-height: 2.2rem;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 4px;
+}
+.cfen-wrapper {
+  padding: 2.4rem;
+  border-top: 1px solid #e3e3e3;
+}
+.cfen-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cfen-inner h6 {
+  font-size: 15px;
+  line-height: 2.2rem;
+  font-weight: 700;
+}
+.cfen-inner p {
+  font-size: 15px;
+  line-height: 2.2rem;
+}
+.name {
+  text-align: start;
+  font-size: 15px;
+  color: #111010;
+}
+.designation {
+  text-align: start;
+  font-size: 13.8px;
+  color: #111010;
+  margin: 10px 0px;
+}
+.company {
+  color: #111010;
+  text-align: start;
+  font-size: 13.8px;
+}
+.trainer-title {
+  font-size: 48px;
+  line-height: 6rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.03em;
+  color: #151515;
+}
+@media (max-width: 575.98px) {
+  .trainer-title {
+    font-size: 26px;
+    line-height: 4rem;
+  }
+  .name {
+    text-align: start;
+    font-size: 18px;
+    color: #111010;
+  }
+  .designation {
+    text-align: start;
+    font-size: 15px;
+    color: #111010;
+    margin: 10px 0px;
+  }
+  .company {
+    color: #111010;
+    text-align: start;
+    font-size: 15px;
+  }
+  .trainers_navigate .swiper-button-next {
+    right: -40px !important;
+    left: auto;
+    top: 200px;
+  }
+  .trainers_navigate .swiper-button-prev {
+    left: -40px !important;
+    right: auto;
+    top: 200px;
+  }
+}

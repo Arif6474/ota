@@ -1,0 +1,200 @@
+.small-device {
+  display: none;
+}
+@media (max-width: 575.98px) {
+  .small-device {
+    display: block;
+  }
+  .smll-device-hero {
+    position: relative;
+  }
+  .smll-device-deadline-box,
+  .smll-device-ofr-box {
+    position: absolute;
+    top: 16px;
+  }
+  .smll-device-deadline-box {
+    left: 16px;
+  }
+  .smll-device-deadline-box h6 {
+    font-weight: 700;
+  }
+  .smll-device-deadline-box h6,
+  .smll-device-deadline-box p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  .smll-device-ofr-box {
+    right: 16px;
+  }
+  .smll-device-ofr-box.ofr-box a {
+    background: rgba(39, 174, 96, 0.2);
+    border: 1px solid #27ae60;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .small-device-head {
+    padding: 24px 0;
+  }
+  .small-device-conditional-btn {
+   width: 100%;
+   margin-right: 20px;
+  }
+  .course-sub-group-box .btn-group-box a {
+    width: auto;
+    height: auto;
+    padding: 10px 12px;
+  }
+  .small-device-tabs-wrapper {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+  .small-device-tabs-wrapper .nav {
+    border-bottom: 2px solid #ececec;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .small-device-tabs-wrapper .nav li:not(:last-child) {
+    margin-right: 32px;
+  }
+  .small-device-tabs-wrapper .nav button.active {
+    color: #224497;
+    font-weight: 700;
+}
+.small-device-tabs-wrapper .nav button {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    background: transparent;
+    padding-bottom: 14px;
+    position: relative;
+}
+.small-device-tabs-wrapper .nav button.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background: #224497;
+}
+.small-device-course-details, .small-device-trainers-wrapper {
+    padding: 24px 0;
+    border-top: 1px solid #ececec;
+}
+.small-device-course-details .btn-course-details, .small-device-trainers-wrapper .btn-trainers-card {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #224497;
+    position: relative;
+}
+.small-device-course-details .btn-course-details::after, .small-device-trainers-wrapper .btn-trainers-card::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    right: 0;
+    background-image: url(../../../../assets/images/icon-svg/chaveron-down.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 14px 8px;
+    width: 14px;
+    height: 8px;
+    transition: transform .3s ease-in-out;
+}
+/* .collapse:not(.show) {
+    display: none;
+} */
+.small-device-course-details .course-description ul, .small-device-trainers-wrapper .trainers-box ul {
+    padding-top: 24px;
+}
+.step-pad{
+  padding-top: 20px;
+}
+.sp{
+  margin-right: 15px;
+}
+.course-description li:not(:last-child) {
+    margin-bottom: 3.2rem;
+}
+/* .small-device-course-details .btn-course-details.active::after, .small-device-trainers-wrapper .btn-trainers-card.active::after {
+    transform: rotate(180deg);
+    transform-origin: center;
+} */
+.header-step.header-step-one, .header-step.header-step-two, .header-step.header-step-three {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.header-step {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.header-step .icon {
+    margin-right: 24px;
+}
+.header-step.header-step-one::after, .header-step.header-step-two::after, .header-step.header-step-three::after {
+    width: 0;
+    height: 0;
+}
+.small-device-form-step {
+    position: relative;
+    min-height: 80px;
+    padding-bottom: 58px;
+    margin: 16px 0;
+}
+.small-device-form-step::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 6.5%;
+    width: 2px;
+    height: 100%;
+    background: var(--gray-4);
+}
+.small-device-form-step .enroll-btn-wrapper {
+    padding-left: 72px;
+}
+.wrapper {
+    padding-top: 15px;
+    padding-left: 72px;
+}
+.input-field-wrapper .agree-or-not p {
+    font-size: 18px;
+    line-height: 2.4rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.submit-application{
+    width: 100%;
+    padding-top: 30px;
+}
+.small-device-submit-application-btn{
+    width: 100%;
+}
+.group-btn{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 15px;
+}
+}
+.content{
+  display: none;
+}
+.content-active{
+  display: block;
+}

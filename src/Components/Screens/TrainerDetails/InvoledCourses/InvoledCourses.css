@@ -1,0 +1,20 @@
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.items{
+    flex: 0 0 auto;
+  width: 32%;
+  
+}
+@media (max-width: 575.98px) {
+  .courses{
+    flex-direction: column;
+}
+.items{
+    flex: 0 0 auto;
+  width: 100%;
+  
+}
+}

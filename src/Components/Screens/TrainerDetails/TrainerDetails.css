@@ -1,0 +1,98 @@
+.trainers-details {
+  margin-top: 13px;
+}
+.trainer-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trainer-pic {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0px 6px;
+}
+.trainer-info {
+  flex: 0 0 auto;
+  width: 50%;
+  align-self: flex-end !important;
+}
+.trainers-details .content-wrapper {
+  padding-left: 4.2rem;
+}
+.trainers-details .content-wrapper .relation {
+  margin: 1.5rem 0 0.8rem;
+}
+.trainers-details .content-wrapper .relation,
+.trainers-details .content-wrapper .organization {
+  font-size: 20px;
+  line-height: 2rem;
+  color: #224497;
+}
+.trainers-details .content-wrapper .qualification-box {
+  max-width: 340px;
+  width: 100%;
+  background: rgba(34, 68, 151, 0.05);
+  border-radius: 0.8rem;
+  padding: 3rem;
+  margin-top: 3.5rem;
+}
+.trainers-details .content-wrapper .qualification-box .qtitle-box {
+  display: flex;
+  align-items: center;
+}
+.trainers-details .content-wrapper .qualification-box .qtitle-box img {
+  width: 24px px;
+  margin-right: 0.8rem;
+}
+.trainers-details .content-wrapper .qualification-box .qtitle-box h5 {
+  color: #224497;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+.trainers-details .content-wrapper .qualification-box p.education {
+  margin: 1.2rem 0;
+  max-width: 25.5rem rem;
+  width: 100%;
+}
+.trainers-details .content-wrapper .qualification-box p {
+  font-size: 15px;
+  line-height: 2.8rem;
+}
+.trainers-details .description {
+    padding-top: 7rem;
+}
+.trainers-details .description p {
+    margin-bottom: 2.5rem;
+    font-size: 15px;
+    line-height: 2.8rem;
+    text-align: justify;
+}
+.trainers-details .specialist h6 {
+    font-size: 15px;
+    line-height: 2.8rem;
+    text-align: justify;
+}
+.trainers-details .specialist p {
+    font-size: 15px;
+    line-height: 2.8rem;
+    text-align: justify;
+}
+@media (max-width: 575.98px) {
+  .trainer-details {
+   flex-direction: column;
+}
+.trainer-pic {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0px 6px;
+}
+.trainer-info {
+  flex: 0 0 auto;
+  width: 100%;
+  align-self: flex-end !important;
+}
+.trainers-details .content-wrapper {
+  padding-left: 4.2rem;
+  padding-top: 2.8rem;
+}
+}

@@ -1,0 +1,20 @@
+.testimonial-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 6rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.03em;
+  color: #151515;
+}
+@media (max-width: 575.98px) {
+  .testimonial-title {
+    text-align: start;
+    font-size: 26px;
+    line-height: 4rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -0.03em;
+    color: #151515;
+  }
+}

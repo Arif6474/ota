@@ -1,0 +1,150 @@
+.footer {
+  padding-top: 8.2rem;
+  background-image: url(../../../assets/images/footer/footer-bg-updated.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: var(--white);
+}
+.footer_content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-logo {
+  flex: 0 0 auto;
+  width: 75%;
+}
+.footer-logo-wrapper img {
+  max-width: 28.6rem;
+}
+.social_logo{
+    flex: 0 0 auto;
+    width: 25%;
+    align-self: flex-end!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.social-wrapper {
+    padding-bottom: .8rem;
+}
+.social-wrapper ul {
+    display: inline-flex;
+}
+.social-wrapper ul li:not(:last-child) {
+    margin-right: 2.8rem;
+}
+.social-wrapper ul li a {
+    display: inline-block;
+    max-width: 28px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.footer .footer_content:not(:first-of-type):not(:last-of-type) {
+    padding: 4.2rem 0 6.4rem;
+}
+.about_ica{
+    flex: 0 0 auto;
+    width: 75%;
+}
+.footer-title h5 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: inherit;
+}
+.footer-info-box p {
+    max-width: 550px;
+    width: 100%;
+}
+.text {
+    font-size: 15px;
+    line-height: 3.2rem;
+}
+.contact-us{
+    flex: 0 0 auto;
+    width: 25%;
+
+}
+.footer-contact-box h5 {
+    margin-bottom: 2.2rem;
+}
+.social_icon{
+    display: none;
+}
+.footer-contact-box ul li:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+.footer-contact-box ul li {
+    display: flex;
+}
+.footer-contact-box ul li .icon {
+    flex: 0 0 14px;
+    max-width: 14px;
+    margin-right: 1.6rem;
+}
+.footer-contact-box p, .copyright p {
+    font-size: 15px;
+    line-height: 2rem;
+    color: inherit;
+    display: block;
+}
+.copyright-content{
+    flex: 1 0 0%;
+}
+.copyright {
+    padding: 3rem 0 4.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright .gray-round {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #C1C1C1;
+    margin: 0 1.8rem;
+}
+.text-reset {
+    color: inherit!important;
+}
+@media (max-width: 575.98px){
+    .social_logo{
+        display: none;
+    }
+    .footer-logo-wrapper img {
+        max-width: 208px;
+       
+    }
+    .footer_content {
+      flex-direction: column;
+    }
+    .about_ica{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .contact-us{
+        flex: 0 0 auto;
+        width: 100%;
+    
+    }
+    .copyright {
+        padding: 2.4rem 0 2.4rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+    .social_icon{
+        display: block;
+        margin: 35px 0px;
+    }
+}

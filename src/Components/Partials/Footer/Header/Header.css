@@ -1,0 +1,30 @@
+.nav-large-device {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 34px;
+    border-bottom: 1px solid #ececec;
+    z-index: 1030;
+}
+.nav-large-device .logo-wrapper {
+    max-width: 200px;
+    width: 100%;
+}
+.nav-large-device .nav-items-wrapper .item {
+    display: inline-block;
+}
+.nav-large-device .nav-items-wrapper .link {
+    display: block;
+    font-size: 14px;
+    line-height: 2.8rem;
+    font-weight: 500;
+    padding: 10px 36px;
+    color: #151515;
+}
+@media (max-width: 991.98px){
+.nav-large-device {
+    display: none;
+}
+}

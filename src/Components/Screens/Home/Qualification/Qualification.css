@@ -1,0 +1,79 @@
+.section-padding{
+    padding: 155px 0px;
+}
+.section-title-wrapper {
+    padding-bottom: 40px;
+}
+.section-head-group.description {
+    align-items: flex-end;
+}
+.section-head-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-head-group .title-box {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.qualifications .section-head-group .section-title {
+    max-width: 58.3rem;
+    width: 100%;
+}
+.section-head-group.description .section-title {
+    margin-bottom: 24px;
+}
+.section-title {
+    font-size: 48px;
+    line-height: 6rem;
+    font-weight: 700;
+  font-family: 'Inter', sans-serif;
+    letter-spacing: -0.03em;
+    color: #151515;
+
+}
+.qualifications .section-head-group .text {
+    max-width: 75rem;
+    width: 100%;
+    font-size: 15px;
+    line-height: 3.2rem;
+}
+.box-btn:not(.fill) {
+    color: #224497;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.box-btn {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    border-radius: 0.5rem;
+    border: 2px solid #224497;
+    display: inline-block;
+}
+.box-btn:hover{
+    background-color: #224497;
+    color: #ffffff;
+}
+@media (max-width: 575.98px){
+    .section-head-group .title-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 2.4rem;
+    }
+    .section-title {
+        font-size: 26px;
+        line-height: 3rem;
+    }
+    .box-btn {
+        font-size: 13px;
+        line-height: 1.7rem;
+        padding: 1.2rem 1.8rem;
+    }
+    .section-padding {
+        padding: 100px 0px;
+    }
+}

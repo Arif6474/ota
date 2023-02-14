@@ -1,0 +1,68 @@
+.countdowns {
+    background-image: url(../../../../assets/images/global/count-down-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 10rem 0;
+}
+.countdowns-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countdown{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.countdown-wrapper {
+    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+}
+.count-number {
+    font-size: 55px;
+    line-height: 5.5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+.countdown-wrapper p {
+    font-size: 20px;
+    line-height: 3.2rem;
+    margin-top: 4px;
+}
+.count{
+    text-align: center;
+}
+.count-end{
+    text-align: end;
+}
+@media (max-width: 575.98px){
+    
+    .countdowns {
+        padding: 6rem 0;
+    }
+    .countdown{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .count-margin{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .count-end{
+        text-align: center;
+    }
+    .count-center{
+        text-align: center;
+        padding-right: 20px;
+      
+    }
+    .count-number {
+        font-size: 40px;
+    }
+    .countdown-wrapper p {
+        font-size: 18px;
+        line-height: 3.2rem;
+        margin-top: 4px;
+    }
+}
